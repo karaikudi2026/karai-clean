@@ -1,0 +1,1 @@
+export { appContentRoutes } from "./routes";

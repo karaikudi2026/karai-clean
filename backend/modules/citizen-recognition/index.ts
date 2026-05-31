@@ -1,0 +1,1 @@
+export { citizenRecognitionRoutes } from "./routes";

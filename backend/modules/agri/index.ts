@@ -1,0 +1,1 @@
+export { agriRoutes } from "./routes";

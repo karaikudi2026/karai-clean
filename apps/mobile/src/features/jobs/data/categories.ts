@@ -1,0 +1,88 @@
+import type { JobCategory } from "../types";
+
+export const JOB_CATEGORIES: JobCategory[] = [
+  {
+    id: "it-software",
+    slug: "it-software",
+    titleKey: "jobs.categories.itSoftware",
+    icon: "code-slash-outline",
+    gradient: ["#5C6B8A", "#3D4A66", "#2A3347"],
+  },
+  {
+    id: "healthcare",
+    slug: "healthcare",
+    titleKey: "jobs.categories.healthcare",
+    icon: "medkit-outline",
+    gradient: ["#4A7A9A", "#355C75", "#243D4F"],
+  },
+  {
+    id: "education",
+    slug: "education",
+    titleKey: "jobs.categories.education",
+    icon: "school-outline",
+    gradient: ["#6B5C8A", "#4D4466", "#332E47"],
+  },
+  {
+    id: "construction",
+    slug: "construction",
+    titleKey: "jobs.categories.construction",
+    icon: "hammer-outline",
+    gradient: ["#8B6914", "#6B5010", "#4A3810"],
+  },
+  {
+    id: "agriculture",
+    slug: "agriculture",
+    titleKey: "jobs.categories.agriculture",
+    icon: "leaf-outline",
+    gradient: ["#3D7A5A", "#2D5C45", "#1E3D2E"],
+  },
+  {
+    id: "hospitality",
+    slug: "hospitality",
+    titleKey: "jobs.categories.hospitality",
+    icon: "restaurant-outline",
+    gradient: ["#C4923A", "#9A7030", "#6B4E28"],
+  },
+  {
+    id: "retail-sales",
+    slug: "retail-sales",
+    titleKey: "jobs.categories.retailSales",
+    icon: "cart-outline",
+    gradient: ["#B84A4A", "#8B3A3A", "#5C2828"],
+  },
+  {
+    id: "driving-delivery",
+    slug: "driving-delivery",
+    titleKey: "jobs.categories.drivingDelivery",
+    icon: "bicycle-outline",
+    gradient: ["#4A5568", "#2D3748", "#1A202C"],
+  },
+  {
+    id: "finance-accounts",
+    slug: "finance-accounts",
+    titleKey: "jobs.categories.financeAccounts",
+    icon: "calculator-outline",
+    gradient: ["#7A6B5C", "#5C4F44", "#3D342C"],
+  },
+  {
+    id: "skilled-trades",
+    slug: "skilled-trades",
+    titleKey: "jobs.categories.skilledTrades",
+    icon: "build-outline",
+    gradient: ["#9A7A5A", "#6B5540", "#4A3A2C"],
+  },
+  {
+    id: "government-civic",
+    slug: "government-civic",
+    titleKey: "jobs.categories.governmentCivic",
+    icon: "business-outline",
+    gradient: ["#1A2332", "#242B38", "#1E2636"],
+  },
+  {
+    id: "media-design",
+    slug: "media-design",
+    titleKey: "jobs.categories.mediaDesign",
+    icon: "color-palette-outline",
+    gradient: ["#8B4A6B", "#6B3852", "#4A2838"],
+  },
+];

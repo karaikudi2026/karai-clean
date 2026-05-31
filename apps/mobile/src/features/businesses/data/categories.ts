@@ -1,0 +1,88 @@
+import type { BusinessCategory } from "../types";
+
+export const BUSINESS_CATEGORIES: BusinessCategory[] = [
+  {
+    id: "restaurants-food",
+    slug: "restaurants-food",
+    titleKey: "businesses.categories.restaurantsFood",
+    icon: "restaurant-outline",
+    gradient: ["#C4923A", "#9A7030", "#6B4E28"],
+  },
+  {
+    id: "hotels-stays",
+    slug: "hotels-stays",
+    titleKey: "businesses.categories.hotelsStays",
+    icon: "bed-outline",
+    gradient: ["#5C6B8A", "#3D4A66", "#2A3347"],
+  },
+  {
+    id: "shopping-retail",
+    slug: "shopping-retail",
+    titleKey: "businesses.categories.shoppingRetail",
+    icon: "bag-handle-outline",
+    gradient: ["#B84A4A", "#8B3A3A", "#5C2828"],
+  },
+  {
+    id: "construction-interiors",
+    slug: "construction-interiors",
+    titleKey: "businesses.categories.constructionInteriors",
+    icon: "hammer-outline",
+    gradient: ["#8B6914", "#6B5010", "#4A3810"],
+  },
+  {
+    id: "agriculture-farming",
+    slug: "agriculture-farming",
+    titleKey: "businesses.categories.agricultureFarming",
+    icon: "leaf-outline",
+    gradient: ["#3D7A5A", "#2D5C45", "#1E3D2E"],
+  },
+  {
+    id: "healthcare",
+    slug: "healthcare",
+    titleKey: "businesses.categories.healthcare",
+    icon: "medkit-outline",
+    gradient: ["#4A7A9A", "#355C75", "#243D4F"],
+  },
+  {
+    id: "education-coaching",
+    slug: "education-coaching",
+    titleKey: "businesses.categories.educationCoaching",
+    icon: "school-outline",
+    gradient: ["#6B5C8A", "#4D4466", "#332E47"],
+  },
+  {
+    id: "local-services",
+    slug: "local-services",
+    titleKey: "businesses.categories.localServices",
+    icon: "construct-outline",
+    gradient: ["#7A6B5C", "#5C4F44", "#3D342C"],
+  },
+  {
+    id: "automobiles",
+    slug: "automobiles",
+    titleKey: "businesses.categories.automobiles",
+    icon: "car-outline",
+    gradient: ["#4A5568", "#2D3748", "#1A202C"],
+  },
+  {
+    id: "handicrafts-heritage",
+    slug: "handicrafts-heritage",
+    titleKey: "businesses.categories.handicraftsHeritage",
+    icon: "color-palette-outline",
+    gradient: ["#C4A574", "#8B6914", "#5C4A32"],
+  },
+  {
+    id: "real-estate",
+    slug: "real-estate",
+    titleKey: "businesses.categories.realEstate",
+    icon: "home-outline",
+    gradient: ["#9A7A5A", "#6B5540", "#4A3A2C"],
+  },
+  {
+    id: "events-photography",
+    slug: "events-photography",
+    titleKey: "businesses.categories.eventsPhotography",
+    icon: "camera-outline",
+    gradient: ["#8B4A6B", "#6B3852", "#4A2838"],
+  },
+];

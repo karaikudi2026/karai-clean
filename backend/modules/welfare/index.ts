@@ -1,0 +1,1 @@
+export { welfareRoutes } from "./routes";

@@ -1,0 +1,1 @@
+export { grievanceRoutes } from "./routes";
